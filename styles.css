@@ -27,7 +27,7 @@
     .badge {
         position: relative;
         top: 5%;
-        right: 6%;
+        right: 20px;
         background-color: #f4e901 ;
     }
     .logo {
@@ -112,22 +112,35 @@
         height: 100px;
         background-color: #dad8a6;
         }
-        .grid-container {
-        margin-top: 60px;
-        display: flex;
-        justify-content: space-between;
-        padding: 20px;
-        background-image: url(images/footer.png);
-        background-size: 100%;
-        }
-        .footer-data1{
-        font-family: 'Poppins', sans-serif;
-        font-size: 10px;
-        color: #41484e;
-        text-align: left;
-        max-width: 20ch;
-        }
-    
+    .grid-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-size: 100%;
+    background-color: #d4d4d4;
+    }
+    .footer-data1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #41484e;
+    text-align: left;
+    max-width: 20ch;
+    background-color: #d4d4d4;
+    }
+
+    .footer-data1  {
+        background-color: #d4d4d4;
+    }
+    .SoMe {
+        background-color: #d4d4d4;
+    }
+    .SoMe a img{
+        background-color: #d4d4d4;
+    }
+    .SoMe a{
+        background-color: #d4d4d4;
+    }
     /* BREAKFAST PAGE */
     .Back-categories {
         margin-left: 5%;
@@ -136,7 +149,8 @@
         justify-content: flex-start;
     }
     .Back-categories a{
-        font-size: 10pt;
+        font-size: 11pt;
+        font-weight: bold;
         color: #41484E;
         text-decoration: none;
     }
@@ -145,6 +159,7 @@
         margin-right: 1%;
         justify-content: center;
     }
+    
     #desktop-breakfast-icon {
         display: none;
     }
@@ -153,6 +168,7 @@
         font-weight: bold;
         font-size: 12pt;
     }
+    
     .order-button {
         margin-bottom: 5%;
         margin-top: 5%;
@@ -163,7 +179,7 @@
         border: 2px solid  #41484E;
         border-radius: 80px;
         font-family: 'Poppins', sans-serif;
-        font-size: 15px;
+        font-size: 16px;
         padding-left: 5%; padding-right: 5%;
         padding-top: 2%; padding-bottom: 2%;
         text-decoration: none;
@@ -191,6 +207,11 @@
         font-size: 14px;
         color: #41484e;
      }
+     .TAB-content p img {
+        position: relative;
+        top: 7px;
+        margin-right: 5px;
+    }
      .TAB-content a{
         color: #41484e;
     
@@ -251,6 +272,13 @@
         }
         #MOBILE {
             display: none;
+        }
+        h2 {
+            color: #41484e;
+            font-size: 14pt;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
         }
         header {
             display: flex;
@@ -422,12 +450,14 @@
     z-index: 1;
 }
 .Back-categories a{
-    font-size: 10pt;
+    font-size: 12pt;
+    font-weight: bold;
     color: #41484E;
     z-index: 1;
     text-decoration: none;
 }
 .TAB-icon {
+margin-top: 30px;
    position: relative;
    bottom: 80px;
 }
@@ -450,7 +480,7 @@
         border: 2px solid  #41484E;
         border-radius: 80px;
         font-family: 'Poppins', sans-serif;
-        font-size: 15px;
+        font-size: 17px;
         padding-left: 5%; padding-right: 5%;
         padding-top: 2%; padding-bottom: 2%;
         text-decoration: none;
@@ -475,6 +505,11 @@
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #41484e;
+ }
+ .TAB-content p img {
+     position: relative;
+     top: 7px;
+     margin-right: 5px;
  }
  .TAB-content a{
     color: #41484e;
@@ -501,7 +536,11 @@ ul li::before {
   margin-left: 0em;
 }
 
+li {
+    max-width: 60ch;
+}
 .TAB-container {
+    margin-top: -20px;
     display: flex;
     justify-content: space-evenly;
 }
