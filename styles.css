@@ -174,7 +174,7 @@
         justify-content: center;
     }
       .order-button a{
-        border: 2px solid  #41484E;
+        border: 2px solid  #fadf00;
         border-radius: 80px;
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
@@ -190,7 +190,8 @@
     }
     .read-more-button a{
         color: #41484E;
-        font-size: 10pt;
+        font-size: 11pt;
+        font-weight: bold;
         text-decoration: underline;
     }
     .TAB-content {
@@ -230,7 +231,7 @@
       }  
     ul li::before {
         content: "\2022";
-        color: #41484E;
+        color: #fadf00;
         font-weight:bolder;
       display: inline-block; 
       width: 1em;
@@ -490,7 +491,7 @@ margin-top: 30px;
         justify-content: center;
     }
       .order-button a{
-        border: 2px solid  #41484E;
+        border: 2px solid  #fadf00;
         border-radius: 80px;
         font-family: 'Poppins', sans-serif;
         font-size: 17px;
@@ -542,7 +543,7 @@ ul {
   }  
 ul li::before {
     content: "\2022";
-    color: #41484E;
+    color: #fadf00;
     font-weight:bolder;
   display: inline-block; 
   width: 1em;
